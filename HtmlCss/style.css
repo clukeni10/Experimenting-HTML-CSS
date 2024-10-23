@@ -1,0 +1,208 @@
+*{
+      padding: 0;
+      margin: 0;
+}
+
+.lato-regular {
+      font-family: "Lato", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+    }
+body{
+   font-family: "Lato" ;
+   height: 700px;
+}
+
+.all{
+      width: 500px;
+      height: 550px;
+      background-color: #98FF98;
+      color: white;
+
+}
+
+
+#logo{
+      margin-left: 20px;
+      width: 100px;
+}
+
+#h2{
+      font-size: 2rem;
+      margin-left: 20px;
+      margin-top: 50px;
+      font-weight: 10;
+}
+
+#h3{
+      margin-left: 20px;
+      margin-top: 5px;
+      font-weight: 2;
+      font-size: 0.8rem;
+      
+}
+
+
+#p1{
+      margin-top: 30px;
+      margin-left: 20px;
+      font-size: 12px;
+}
+
+#p2{
+      margin-top: 15px;
+      margin-left: 20px;
+      font-size: 12px;
+}
+
+
+
+
+
+#ANC{
+      position: relative;
+      top: 100px;
+      left: 35px;
+      font-size: 18px;
+}
+
+#hrs{
+      position:relative;
+      top: 70px;
+      left: 153px;
+      font-size: 10px;
+}
+
+
+
+#foldable{
+      position: relative;
+      top: 50px;
+      left: 405px;
+      font-size: 16px;
+}
+
+
+.icons{
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+}
+
+.icons img{
+      
+      object-fit: fill;
+      margin: 10px;
+
+      position: relative;
+      left: -20px;
+}
+
+#w{
+      width: 60px;
+}
+
+#b{
+      width: 60px;
+      height: 50px;
+      display: flex;
+      align-items: center;
+      
+}
+
+#battery{
+      height: 40px;
+      width: 40px;
+      margin-left: 30px;
+      
+}
+#waves{
+      width: 20px;
+      height: 20px;
+      margin-left: 40px;
+      margin-bottom: 20px;
+}
+
+#bt{
+      width: 70px;
+      height: 50px;
+     
+      display: flex;
+      align-items: center;
+      
+}
+
+#bluetooth{
+      filter: invert(1) brightness(2);
+
+      height: 70px;
+      width: 60px;
+      margin-left: 20px;
+}
+
+#hp{
+      width: 100px;
+      height: 50px;
+      display: flex;
+      align-items: center;
+}
+#imgspecial{
+      filter: invert(1) brightness(2);
+      width: 50px;
+      height: 50px;
+      margin-left: -1px;
+
+}
+
+
+#headphones{
+      width: 260px;
+      height: 400px;
+
+      
+      position: absolute;
+      left: 220px;
+
+      z-index: 2;
+      
+}
+
+#shadow{
+      background-color: black;
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+     
+
+      position: absolute;
+      left: 280px;
+      top: 210px;
+      z-index: 1;
+
+      box-shadow: 0px -10px  150px rgba(255, 255, 255, 0.993),
+      0px 10px  150px rgb(255, 255, 255),
+      -10px 0px  150px rgba(255, 255, 255, 0.993),
+      3px 0px  150px rgba(255, 255, 255, 0.993)
+      ;
+}
+
+#shadow2{
+      background-color: black;
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+     
+
+      position: absolute;
+      left: 280px;
+      top: 210px;
+      z-index: 1;
+
+      box-shadow: 0px 100px 50px rgba(0, 0, 0, 0.5);
+}
+
+.linha-vertical{
+      border-left: 1px solid white;
+      height: 50px;
+     
+}
