@@ -1,0 +1,121 @@
+*{
+      padding: 0;
+      margin: 0;
+}
+
+
+.content{
+      width: 600px;
+      height: 600px;
+      background-color: #BDFCC9;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      translate: -50% -50%;
+      overflow: hidden;
+}
+
+#logo{
+      width: 150px;
+      height: 150px;
+      margin-left: 30px;
+      position: absolute;
+      z-index:2 ;
+}
+
+#headphones{
+      width: 600px;
+      position: absolute;
+      top: -150px;
+      right: -70px;
+      z-index: 1;
+}
+
+.text{
+      position: relative;
+      top: 430px;
+      margin-left: 30px;
+      color: white;
+      
+
+}
+
+p{
+      position: absolute;
+      bottom: 50px;
+      right: 75px;
+      font-size: 22px;
+      color: white;
+}
+.text h1{
+      font-size: 3.5rem;
+      font-weight: 1;
+}
+.text  h3{
+      margin-top: 5px;
+      font-size: 18px;
+      font-weight: 1;
+}
+
+.img{
+      width: 150px;
+      height: 150px;
+      position: absolute;
+      right: 30px;
+      bottom: 10px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      
+}
+
+.img img{
+      width: 90px;
+      height: 60px;
+}
+
+#blue{
+      height: 30px;
+      filter: invert(1)
+}
+
+#batt{
+      width: 90px;
+}
+
+.shadow{
+      width: 400px;
+      height:400px;
+      border: none;
+      border-radius: 50%;
+      background-color: white;
+      position: absolute;
+      top: -30px;
+      right: -5px;
+      z-index: 0;
+      box-shadow: 
+      0px -50px 30px rgba(255, 255, 255),
+      0px 50px 30px rgba(255, 255, 255, 0.966), 
+      -50px 0px 20px rgb(255, 255, 255), 
+      50px 0px 30px rgba(255, 255, 255);  
+}
+
+.shadow2{
+      width: 100px;
+      height:100px;
+      border: none;
+      border-radius: 50%;
+      background-color: black;
+      position: absolute;
+      top: 270px;
+      right: 300px;
+      z-index: 0;
+      box-shadow: 
+      0px -50px 30px rgba(255, 255, 255),
+      0px 50px 30px rgba(0, 0, 0, 0.5), 
+      -50px 0px 30px rgb(255, 255, 255), 
+      50px 0px 30px rgba(255, 255, 255);  
+}
+
+
